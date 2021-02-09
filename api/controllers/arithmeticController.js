@@ -14,8 +14,11 @@ exports.calculate = function(req, res) {
     'add':      function(a,b) { return +a + +b }, 
   
     //new line comment by Venu
+    
     'subtract': function(a,b) { return a - b },
+      //new line comment by Venu
     'multiply': function(a,b) { return a * b },
+    
     'divide':   function(a,b) { return a / b },
   };
 
