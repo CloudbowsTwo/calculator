@@ -12,7 +12,7 @@ exports.calculate = function(req, res) {
 
   var operations = {
     'add':      function(a,b) { return +a + +b }, 
-    //This is a new comment - Another cmm
+    //This is a new comment - Another comment
     //new line comment by Venu
     'subtract': function(a,b) { return a - b },
     'multiply': function(a,b) { return a * b },
